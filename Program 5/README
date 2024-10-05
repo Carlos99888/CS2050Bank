@@ -1,0 +1,29 @@
+Now that you have the ADTs and classes that implement Checking & Savings, generate 25 objects for each. Use the random number generator to generate the account number for each. As you create the Checking object, push the object on the Check Stack. When all 25 objects have been put on the stack, write the stack to the file CheckStack. Do the same for the Savings account, writing the stack to the file SaveStack.
+
+Now you need a new generic class AccountStack that is used by the main program. To make life simpler, use ArrayList<> to implement the stack for each.
+
+The process:
+
+The Checking class creates a single Checking object and returns the object to the main program Program5.java. The main program then uses
+
+Program5 creates a Stack object for each of the accounts. Each time a new object is created and returned to Program5, it takes the object and puts it on the stack
+
+When all 25 objects have been pushed on the stack, write the stack out to the file.
+
+Do the same for the Savings class.
+
+To Submit:
+
+Program5.java
+
+Checking.java
+
+Savings.java
+
+Accounts.java
+
+AccountStack.java
+
+the two output files
+
+Zip all the files together and submit the one .zip file on canvas.
